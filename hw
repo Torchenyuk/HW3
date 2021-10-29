@@ -1,0 +1,81 @@
+1 
+var name, admin;
+name='Джон';
+admin=name;
+console.log(admin);
+2.1 
+var a;
+a = prompt('Ведите число меньше 10');
+if(a<10){
+console.log('верно');
+}
+else{
+console.log('неверно');
+}
+
+
+2.2 
+  let message;
+let login;
+switch(login){
+case 'Сотрудник':
+message = 'Привет';
+break;
+case 'Директор':
+message = 'Здравствуйте';
+break;
+case '':
+message = 'Нет логина';
+break;
+
+    default:
+    message = '';
+    	break;
+       
+}
+
+
+2.3 
+  let age;
+age=prompt('Введите ваш возраст:');
+if(age>=14 && age<=90){
+console.log('Переменная age находится в диапазоне между 14 и 90 ');
+}
+else{
+console.log('Переменная age не находится в диапазоне между 14 и 90 ');
+}
+
+
+2.4 
+const number = +prompt('Введите число между 0 и 3', '');
+switch(number){
+case 0:
+alert('Вы ввели число 0');
+break;
+case 1:
+alert('Вы ввели число 1');
+break;
+case 2:
+case 3:
+alert('Вы ввели число 2, а может и 3');
+break;
+default:
+alert('Вы ввели неправильное число');
+break;
+}
+
+
+3.1
+for (let i = 2; i <= 100; i++) {
+if(i%2===0)
+{
+console.log(i)
+}
+   }
+
+
+3.2
+let i;
+do {
+i=prompt('Ведите число больше 100');
+} while (i < 100);
